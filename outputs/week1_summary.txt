@@ -1,0 +1,5 @@
+Weeks lined up: 1,394 (2000-01-14 to 2026-09-24)
+Baseline miss, all history: 0.067 percentage points per week
+Baseline miss, last 2 years: 0.056 percentage points per week
+Correlation of weekly changes (mortgage rate vs 10-year yield): 0.76
+Average spread (mortgage minus 10-year): 1.89 pts, last 2 years: 2.19 pts
