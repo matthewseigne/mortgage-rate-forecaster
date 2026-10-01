@@ -17,11 +17,16 @@ History used: 2000 to today.
 ## Plan
 | Week | Goal | Status |
 |---|---|---|
-| 1 | Pull the data, line it up week by week, measure the baseline to beat | In progress |
-| 2 | Automate the weekly data pull in the cloud (AWS Lambda) | |
-| 3 | Build and honestly test a model against the baseline | |
-| 4 | Power BI dashboard + write-up | |
-| 5 | Polish, results, lessons learned | |
+| 1 | Pull the data, line it up week by week, measure the baseline to beat | Done |
+| 2 | Build a simple model and test it honestly on recent years it hasn't seen | |
+| 3 | Power BI dashboard + write-up of results | |
+| 4–5 | Automate the weekly update in the cloud (AWS Lambda), polish, lessons learned | |
+
+## Week 1 results
+- 1,394 weeks lined up (2000 to Sept 2026).
+- **Baseline to beat:** guessing "same as last week" misses by 0.067 percentage points per week on average (0.056 over the last 2 years).
+- Weekly changes in the mortgage rate and the 10-year yield have a correlation of 0.76, so there's real signal to work with.
+- The spread (mortgage rate minus 10-year yield) averaged 1.89 points historically but 2.19 over the last 2 years. It widened, and the model has to handle that.
 
 ## How to run
 ```
