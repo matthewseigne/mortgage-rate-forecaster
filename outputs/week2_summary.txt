@@ -1,0 +1,16 @@
+Test period: 2020-01-02 to 2026-10-08, every week predicted using only earlier weeks
+All test weeks (354 weeks): naive 0.079 | expanding 0.054 (32% better) | rolling 2-yr 0.054 (32% better) | rolling beats naive in 66% of weeks
+Last 2 years (105 weeks): naive 0.059 | expanding 0.043 (28% better) | rolling 2-yr 0.043 (27% better) | rolling beats naive in 68% of weeks
+2022 (bond sell-off) (52 weeks): naive 0.161 | expanding 0.096 (40% better) | rolling 2-yr 0.081 (49% better) | rolling beats naive in 81% of weeks
+Fast bond weeks = 10-year moved more than 0.110 pts (75th percentile, 2000-2019):
+  Fast bond weeks (95 weeks): naive 0.144 | expanding 0.070 (51% better) | rolling 2-yr 0.069 (52% better) | rolling beats naive in 78% of weeks
+  Calm weeks (259 weeks): naive 0.055 | expanding 0.048 (14% better) | rolling 2-yr 0.048 (13% better) | rolling beats naive in 61% of weeks
+Latest slope (rolling 2-yr): a 0.10 move in the 10-year moves the mortgage rate 0.063 pts
+
+Most recent weeks (actual vs forecasts):
+  2026-09-03  actual 6.71 | naive 6.66 | model 6.72 | 10-yr moved +0.11
+  2026-09-10  actual 6.76 | naive 6.71 | model 6.72 | 10-yr moved +0.03
+  2026-09-17  actual 6.95 | naive 6.76 | model 6.87 | 10-yr moved +0.19
+  2026-09-24  actual 7.03 | naive 6.95 | model 6.96 | 10-yr moved +0.02
+  2026-10-01  actual 7.28 | naive 7.03 | model 7.18 | 10-yr moved +0.25
+  2026-10-08  actual 7.40 | naive 7.28 | model 7.30 | 10-yr moved +0.02

@@ -4,7 +4,7 @@ MORTGAGE30US: Freddie Mac's 30-year fixed mortgage rate (weekly, published Thurs
 DGS10: 10-year U.S. Treasury yield (daily, business days only).
 
 No API key needed here: FRED serves these as public CSV downloads.
-(Week 2 switches to the FRED API with a free key so the pull can run automatically.)
+(The cloud automation step switches to the FRED API with a free key so the pull can run on a schedule.)
 """
 from pathlib import Path
 
